@@ -322,7 +322,11 @@ public class App {
                                     break;
                                 default:
                                     System.out.println("Status inválido.");
+                                    System.out.println();
+                            
                                     break;
+
+                                   
                             }
 
                             System.out.println("Status atualizado com sucesso!");
@@ -340,5 +344,5 @@ public class App {
 
         sc.close();
     }
-
 }
+
